@@ -12,12 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'App desde Android',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('¡Hola mundo!'),
-        ),
-        body: const Center(
-          child: Text('Creado sin computadora 🎉'),
-        ),
+        appBar: AppBar(title: const Text('¡Hola mundo!')),
+        body: const Center(child: Text('Creado sin computadora 🎉')),
       ),
     );
   }
